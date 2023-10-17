@@ -16,7 +16,7 @@ public class Employe4 implements Cloneable {
 	@Override
 	protected Object clone() throws CloneNotSupportedException {
 		Employe4 e5 = (Employe4) super.clone();
-		e5.b = (Bank) b.clone();
+		e5.b = (Bank) b.clone();  
 		return e5;
 	}
 
