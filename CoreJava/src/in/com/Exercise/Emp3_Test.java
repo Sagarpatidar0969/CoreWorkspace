@@ -14,7 +14,7 @@ public class Emp3_Test {
 		System.out.println(l);
         Collections.sort(l, new Emp3_Sortbyid());
 		System.out.println(l);
-		
+		 
 		Collections.sort(l,new Emp3_byname());
 		System.out.println(l);
 		
